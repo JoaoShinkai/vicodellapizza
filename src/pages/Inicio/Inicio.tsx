@@ -7,7 +7,7 @@ import Carrousel1 from '../../assets/carrousel_1.png';
 import Carrousel2 from '../../assets/carrousel_2.png';
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from "react-responsive-carousel";
-import { Card, Button, CardContent, Typography, CardActions } from "@mui/material";
+import { Card, CardContent, Typography } from "@mui/material";
 
 export default function Inicio() {
     return (
