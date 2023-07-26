@@ -1,0 +1,225 @@
+.main {
+    max-height: calc(100vh - 80px);
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.main-image {
+    right: 0;
+    transform: translate(30%, 10%);
+    position: absolute;
+}
+
+.main-container-info {
+    position: absolute;
+    z-index: 99999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px #2b2b2b;
+    text-align: center;
+}
+
+.main-container {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.container-caroussel-image {
+    height: 100%;
+}
+
+.container-caroussel-image img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.bio {
+    display: flex;
+    padding: 10%;
+    flex-wrap: wrap;
+}
+
+.bio-images {
+    width: 100%;
+    max-width: 550px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.bio-images-item {
+    width: 550px;
+    max-width: 100%;
+}
+
+.bio-images-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.bio-description {
+    padding: 10px 5%;
+    flex: 1;
+}
+
+.bio-description-title {
+    font-size: 32px;
+    color: #2e4371;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.bio-description-title::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: #96243a;
+    bottom: 0;
+}
+
+.bio-description-subititle {
+    padding: 16px 0;
+    font-size: 18px;
+    color: #2e4371;
+    font-weight: 600;
+}
+
+.bio-description-text {}
+
+.opening-hours {
+    position: relative;
+    border-top: 1px dashed gray;
+    min-height: 100vh;
+    padding: 8%;
+}
+
+.opening-hours-pizza {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    transform: translate(20%, 0%);
+}
+
+.opening-hours-pizza img {
+    width: 100%;
+    height: 100%;
+}
+
+.opening-hours-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.opening-hours-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ee5253;
+}
+
+.opening-hours-title i {
+    margin-right: 7px;
+}
+
+.opening-hours-hours {
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.opening-hours-content-contact {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.opening-hours-content-contact-item {
+    font-size: 26px;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.opening-hours-content-contact-item span {
+    font-size: 20px;
+}
+
+.opening-hours-content-contact-item a {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #e1e1e1;
+    color: #ee5253;
+    position: relative;
+    transition: .4s;
+}
+
+.opening-hours-content-contact-item a::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    transition: .4s;
+    background-color: #ee5253;
+}
+
+.opening-hours-content-contact-item a:hover::before {
+    width: 100%;
+    height: 100%;
+}
+
+.opening-hours-content-contact-item a:hover {
+    color: white;
+}
+
+.opening-hours-content-contact-item a i {
+    position: relative;
+}
+
+@media (max-width: 575.98px) {
+    .opening-hours-pizza {
+        transform: translate(40%, -50%);
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .opening-hours-pizza {
+        transform: translate(40%, -50%);
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .opening-hours-pizza {
+        transform: translate(40%, -50%);
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
