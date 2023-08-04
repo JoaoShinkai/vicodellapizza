@@ -1,14 +1,18 @@
 import './index.css';
 
 import Logo from '../../assets/logo.png';
+import { Link } from 'react-router-dom';
 
 export default function NavBarComponent() {
     return (
         <nav className='navbar'>
-            <div className='navbar-logo'>
+            <Link to="/" className='navbar-logo'>
                 <img src={Logo} alt="" />
                 <div>Vico Della Pizza</div>
-            </div>
+            </Link>
+            <Link to="/cardapio" className='navbar-cardapio'>
+                Ver cardápio
+            </Link>
         </nav>
     )
 }

@@ -5,6 +5,7 @@ import Logo from '../../assets/logo.png';
 import Chef from '../../assets/Chef.jpeg';
 import Carrousel1 from '../../assets/carrousel_1.png';
 import Carrousel2 from '../../assets/carrousel_2.png';
+import Federacao from '../../assets/logo-federacao-italiana.png';
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from "react-responsive-carousel";
 import { Card, CardContent, Typography } from "@mui/material";
@@ -56,6 +57,9 @@ export default function Inicio() {
                         E é por isso que produzimos pizzas. Por paixão à arte branca e pelo sentimento de bem estar e alegria que ela proporciona a todos que estão à sua volta. E é por isso também que conservamos a tradição italiana de fazer massas de longa fermentação, de utilizarmos ingredientes frescos, de boa procedência e de qualidade.
                         <br /> <br />
                         Tudo isso para proporcionar para você uma experiência gastronômica inesquecível.
+                    </div>
+                    <div className="bio-description-logo">
+                        <img src={Federacao} alt="" />
                     </div>
                 </div>
 

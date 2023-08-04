@@ -1,8 +1,16 @@
+a {
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
 .navbar {
     width: 100%;
     border-bottom: solid 1px lightgray;
     background-color: white;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navbar-logo {
@@ -14,4 +22,28 @@
 .navbar-logo img {
     width: 60px;
     border-radius: 8px;
+}
+
+.navbar-cardapio {
+    padding: 20px;
+    text-decoration: none;
+    color: #ee5253;
+    font-weight: 500;
+    position: relative;
+    height: 100%;
+}
+
+.navbar-cardapio::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 4px;
+    background-color: #ee5253;
+    transition: .3s;
+}
+
+.navbar-cardapio:hover::before {
+    width: 100%;
 }
