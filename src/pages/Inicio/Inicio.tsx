@@ -54,7 +54,7 @@ export default function Inicio() {
                         <br /> <br />
                         A outra, é pela pela pizza, por seu aroma, sabor e efeito vigoroso que ela traz, como se nela houvesse a personificação da alegria.
                         <br /> <br />
-                        E é por isso que produzimos pizzas. Por paixão à arte branca e pelo sentimento de bem estar e alegria que ela proporciona a todos que estão à sua volta. E é por isso também que conservamos a tradição italiana de fazer massas de longa fermentação, de utilizarmos ingredientes frescos, de boa procedência e de qualidade.
+                        E é por isso que produzimos pizzas. Pelo sentimento de bem estar e alegria que ela proporciona a todos que estão à sua volta. E é por isso também que conservamos a tradição italiana de fazer massas de longa fermentação, de utilizarmos ingredientes frescos, de boa procedência e de qualidade.
                         <br /> <br />
                         Tudo isso para proporcionar para você uma experiência gastronômica inesquecível.
                     </div>
@@ -110,7 +110,14 @@ export default function Inicio() {
                             <div className="opening-hours-content-contact-item">
                                 <i className="fa-brands fa-whatsapp"></i>
                                 <span>(11) 97679-2628</span>
-                                <a href="https://whatsa.me/5511976792628" target="_blank">
+                                <a href="https://whatsa.me/5511993662262" target="_blank">
+                                    <i className="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                            <div className="opening-hours-content-contact-item">
+                                <i className="fa-brands fa-whatsapp"></i>
+                                <span>(11) 99366-2262</span>
+                                <a href="https://whatsa.me/5511993662262" target="_blank">
                                     <i className="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
